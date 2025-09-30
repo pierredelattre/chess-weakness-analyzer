@@ -1,0 +1,1110 @@
+{
+  "Nc3 e5 e4 Nf6 Nf3 Bd6 d3 O-O Bg5 h6 Bxf6 Qxf6": {
+    "eco": "A00",
+    "name": "Ouverture Van Geet (Dunst)"
+  },
+  "Nf3 Nf6": {
+    "eco": "A04–A09",
+    "name": "Réti (symétrique)"
+  },
+  "Nf3 d5": {
+    "eco": "A04–A09",
+    "name": "Reti"
+  },
+  "Nf3 d5 Nc3 Nf6 Ne5 e6 d4 Bd7 Bg5 Nc6 Nxc6 Bxc6": {
+    "eco": "A04–A09",
+    "name": "Réti"
+  },
+  "Nf3 d5 Nc3 e6 e4 Nc6 exd5 exd5 Bb5 Bd7 Bxc6 Bxc6": {
+    "eco": "A04–A09",
+    "name": "Réti"
+  },
+  "Nf3 d5 d4 Nf6 e3 e6 Ne5 Bd6 Bb5 Bd7 Nc3 c6": {
+    "eco": "A04–A09",
+    "name": "Réti"
+  },
+  "Nf3 d5 e4 dxe4 Ng5 Nf6 d4 e6 Qe2 Bd6 c3 O-O": {
+    "eco": "A04",
+    "name": "Gambit Lisitsin"
+  },
+  "Nf3 d5 g3": {
+    "eco": "A04–A09",
+    "name": "Reti (fianchetto)"
+  },
+  "Nf3 d5 g4 Nc6 h3 e6 Bg2 Bd6 d4 Nf6 g5 Ne4": {
+    "eco": "A04",
+    "name": "Réti – gambit g4"
+  },
+  "Nf3 d6 e3 e5 c3 Nf6 Qa4 Qd7 Qb3 Be7 d4 exd4": {
+    "eco": "(custom)",
+    "name": "Réti (non classée)"
+  },
+  "Nf3 e5 e4 d6 Bc4 Nc6 c3 Nf6 Ng5 Nxe4 Nxf7 Qh4": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "Nf3 e6 g3 d5 Bg2 Nf6 d4 Bd6 Bg5 O-O Nc3 h6": {
+    "eco": "(custom)",
+    "name": "Attaque indienne du Roi"
+  },
+  "b3 d5 Bb2 e6 g3 Nc6 Bg2 Nf6 Nf3 Bd6 O-O h6": {
+    "eco": "A01",
+    "name": "Nimzowitsch–Larsen Attack"
+  },
+  "b3 e5 Bb2 Nc6 Nf3 Bd6 e4 Nf6 Bc4 Nxe4 d3 Ng5": {
+    "eco": "A01",
+    "name": "Nimzowitsch–Larsen Attack"
+  },
+  "b3 e5 f3 d5 e3 Nf6 Ne2 Bd6 Bb2 O-O g3 e4": {
+    "eco": "A01",
+    "name": "Nimzowitsch–Larsen Attack"
+  },
+  "b4 e5 Bb2 d6 b5 g6 f4 Bg7 a4 a6 e3 Ne7": {
+    "eco": "A00",
+    "name": "Ouverture Sokolsky"
+  },
+  "c4 Nf6": {
+    "eco": "A10–A19",
+    "name": "Anglaise (flexible)"
+  },
+  "c4 c5": {
+    "eco": "A30–A39",
+    "name": "Anglaise Symétrique"
+  },
+  "c4 e5": {
+    "eco": "A20–A29",
+    "name": "Anglaise (variante symétrique e5)"
+  },
+  "d4 Nf6 Bg5": {
+    "eco": "A45",
+    "name": "Trompowsky"
+  },
+  "d4 Nf6 Nc3 d6": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 Nf6 Nf3 d5 Bf4": {
+    "eco": "D02",
+    "name": "Système de Londres (ordre Nf3)"
+  },
+  "d4 Nf6 Nf3 d5 Nc3 e6 Bf4 Bd6 Bg5 h6 Bxf6 Qxf6": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 Nf6 c4 c5 d5 b5": {
+    "eco": "A57–A59",
+    "name": "Gambit Benkö (Volga)"
+  },
+  "d4 Nf6 c4 c5 d5 e6": {
+    "eco": "A56–A79",
+    "name": "Benoni Moderne"
+  },
+  "d4 Nf6 c4 e6 Bf4": {
+    "eco": "E00",
+    "name": "Jobava–Londres (ordre QID)"
+  },
+  "d4 Nf6 c4 e6 Nc3 Bb4": {
+    "eco": "E20–E59",
+    "name": "Nimzo–Indienne"
+  },
+  "d4 Nf6 c4 e6 Nf3 b6": {
+    "eco": "E12–E19",
+    "name": "Indienne de la Dame"
+  },
+  "d4 Nf6 c4 e6 e3 b6": {
+    "eco": "E12",
+    "name": "Indienne de la Dame (ordre e3)"
+  },
+  "d4 Nf6 c4 e6 g3": {
+    "eco": "E00",
+    "name": "Catalane (ordre e6)"
+  },
+  "d4 Nf6 c4 g6 Nc3 Bg7 e4 d6": {
+    "eco": "E60–E99",
+    "name": "Indienne du Roi"
+  },
+  "d4 Nf6 c4 g6 Nc3 d5": {
+    "eco": "D70–D99",
+    "name": "Grünfeld"
+  },
+  "d4 c6 Bf4 d5 Nc3 Nf6 f3 Nbd7 Qd3 e5 dxe5 Nxe5": {
+    "eco": "(custom)",
+    "name": "Structure fermée (non classée)"
+  },
+  "d4 c6 Nf3 Nf6 Nc3 e6 e4 d5 e5 Ne4 Bf4 Be7": {
+    "eco": "(custom)",
+    "name": "Structure fermée (non classée)"
+  },
+  "d4 c6 e3 d5 Bd3 Nf6 Nf3 e6 O-O Bd6 g3 O-O": {
+    "eco": "D05",
+    "name": "Système Colle (vs Slave)"
+  },
+  "d4 d5 Bf4 Nc6 Nf3 Nf6 e3 e6 Bd3 g6 O-O Bg7": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Bf4 Nc6 Nf3 e6 c3 Nf6 e3 Be7 Bd3 O-O": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Bf4 Nc6 c3 Nf6 Qa4 b6 Qxc6 Bd7 Qxc7 Qxc7": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Bf4 Nc6 e3 Nf6 Nf3 e6 Bb5 a6 Bxc6 bxc6": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Bf4 Nf6 e3 c6 Nc3 e6 Qe2 Bd6 Bg3 O-O": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6 Bd3 Bd6 Bxd6 cxd6 c3 O-O": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6 Nf3 Bd6 Bd3 Bxf4 exf4 O-O": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Bf4 Nf6 e3 e6 h3 Bd6 Bg5 O-O Nf3 Nbd7": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Bf4 e6 Nf3 Nf6 e3 Nc6 Bd3 Bd6 Bg3 O-O": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Bf4 e6 e3 Nf6 Nf3 Bd6 Bg3 O-O Nbd2 Nc6": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Nc3 Nf6 Bf4 e6 Nb5 Bd6 Bxd6 cxd6 Qd3 O-O": {
+    "eco": "D02",
+    "name": "Système Jobava-Londres"
+  },
+  "d4 d5 Nc3 Nf6 Nf3 e6 Bg5 Nc6 e3 h6 Bf4 g5": {
+    "eco": "(custom)",
+    "name": "Veresov (non classée)"
+  },
+  "d4 d5 Nc3 Nf6 e3 e6 Bd2 Bd6 Nb5 O-O Nxd6 Qxd6": {
+    "eco": "(custom)",
+    "name": "Veresov (non classée)"
+  },
+  "d4 d5 Nc3 Nf6 f3 e6 e4 Nc6 Bb5 dxe4 fxe4 a6": {
+    "eco": "(custom)",
+    "name": "Veresov (non classée)"
+  },
+  "d4 d5 Nf3 Nc6 Bg5 Be6 c4 h6 Bf4 Nf6 h3 Bd7": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 d5 Nf3 Nc6 Nc3 Nf6 Bf4 e6 Nb5 Bd6 Bxd6 cxd6": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 d5 Nf3 Nc6 Nc3 e6 e3 Nf6 Bd3 Bd6 O-O O-O": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 d5 Nf3 Nc6 Nc3 e6 e4 Be7 Ne5 Bd7 Bb5 Nf6": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 d5 Nf3 Nf6 Bf4": {
+    "eco": "D02",
+    "name": "Système de Londres (structure d5)"
+  },
+  "d4 d5 Nf3 Nf6 Bf4 e6 e3 Bd6 Bd3 Bxf4 exf4 O-O": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Nf3 Nf6 Bf4 e6 e3 Bd6 Bg5 Nbd7 Bd3 O-O": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Nf3 Nf6 Bf4 e6 e3 Nc6 Bb5 Bd6 Bxd6 Qxd6": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Nf3 Nf6 Bf4 e6 e3 c6 c3 Bd6 Ne5 O-O": {
+    "eco": "D02",
+    "name": "Système de Londres"
+  },
+  "d4 d5 Nf3 Nf6 Bg5 e6 Bxf6 Qxf6 Qd3 Bd6 Qb5 c6": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 d5 Nf3 Nf6 Nbd2 e6 e3 Bd6 Bd3 O-O b3 Nc6": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 d5 Nf3 Nf6 Nc3 e6 Ne5 Bd6 e3 Nc6 Bb5 O-O": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 d5 Nf3 Nf6 e3": {
+    "eco": "D05",
+    "name": "Système Colle"
+  },
+  "d4 d5 Nf3 Nf6 e3 e6 Bd3 h6 O-O Bd6 b3 O-O": {
+    "eco": "D05",
+    "name": "Système Colle"
+  },
+  "d4 d5 Nf3 e6 e3 Nf6 Bb5 c6 Be2 c5": {
+    "eco": "D05",
+    "name": "Système Colle"
+  },
+  "d4 d5 b3 Nc6 Nf3 Nf6 Bb2 e6 e3 Bb4 Nbd2 Bxd2": {
+    "eco": "A06",
+    "name": "Système Larsen (ordre d4)"
+  },
+  "d4 d5 c3 Nf6 Nd2 Nc6 Ngf3 e6 Ne5 g6 f4 Bg7": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 d5 c4": {
+    "eco": "D06–D69",
+    "name": "Gambit Dame"
+  },
+  "d4 d5 c4 c6": {
+    "eco": "D10–D19",
+    "name": "Slave"
+  },
+  "d4 d5 c4 dxc4": {
+    "eco": "D20–D29",
+    "name": "Gambit Dame Accepté"
+  },
+  "d4 d5 c4 e6": {
+    "eco": "D35–D36",
+    "name": "Gambit Dame Refusé"
+  },
+  "d4 d5 c4 e6 Nc3 c6": {
+    "eco": "D43–D49",
+    "name": "Semi–Slave"
+  },
+  "d4 d5 e3 Nc6 Nc3 e5 dxe5 Nxe5 Nf3 d4 Nxd4 Bc5": {
+    "eco": "D05",
+    "name": "Système Colle"
+  },
+  "d4 d5 e3 Nc6 c3 e5 dxe5 Nxe5 Nf3 Bd6 Qxd5 c6": {
+    "eco": "D05",
+    "name": "Système Colle"
+  },
+  "d4 d5 e3 Nf6 Ne2 Nc6 g3 e6 Bg2 Bd6 Nd2 b6": {
+    "eco": "D05",
+    "name": "Système Colle"
+  },
+  "d4 d5 e3 Nf6 Nf3 e6 Bd3 Bd6 O-O Nc6 c3 O-O": {
+    "eco": "D05",
+    "name": "Système Colle"
+  },
+  "d4 d5 e3 Nf6 Nf3 e6 Ne5 Bd6 Bb5 Nbd7 a4 a6": {
+    "eco": "D05",
+    "name": "Système Colle"
+  },
+  "d4 d5 e3 Nf6 f3 e6 b3 Be7 Bd2 O-O Nc3 Nc6": {
+    "eco": "D05",
+    "name": "Système Colle"
+  },
+  "d4 d5 e4 c6 e5 f6 f4 Be6 g4 Nh6 Be2 f5": {
+    "eco": "D00",
+    "name": "Gambit Blackmar–Diemer"
+  },
+  "d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Qxf3 e6 Bg5 Be7": {
+    "eco": "D00",
+    "name": "Gambit Blackmar–Diemer"
+  },
+  "d4 d5 h3 Nf6 e3 e6 c4 dxc4 Bxc4 Bd6 a3 O-O": {
+    "eco": "A40",
+    "name": "Ouverture Anti-Trompowsky"
+  },
+  "d4 d6 Nf3 c5 d5 Nf6 Bf4 Nxd5 Qxd5": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 d6 e3 Nd7 Nf3 Ngf6 Bd3 e5 O-O Be7 e4 O-O": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 e6 Bf4 d5 h3 Nf6 e3 Bd6 Bxd6 Qxd6 Nf3 h6": {
+    "eco": "(custom)",
+    "name": "Ouverture d4 (non classée)"
+  },
+  "d4 f5": {
+    "eco": "A80–A99",
+    "name": "Hollandaise"
+  },
+  "d4 g6 e4 Bg7 Nf3 Nc6 Be3 d6 Bc4 e5 Bg5 f6": {
+    "eco": "B06",
+    "name": "Défense Moderne"
+  },
+  "e3 d5 b3 c5 g3 e6 Bg2 Nf6 Bb2 Nc6 Nc3 Be7": {
+    "eco": "A00",
+    "name": "Ouverture Van 't Kruijs"
+  },
+  "e3 e5 Nc3 d5 Bb5 c6 Bf1 Nf6 e4 dxe4 Bc4 Be7": {
+    "eco": "A00",
+    "name": "Ouverture Van 't Kruijs"
+  },
+  "e3 e5 Nf3 Nc6 d3 d5 d4 e4 Ng1 Nf6 Bb5 Bd7": {
+    "eco": "A00",
+    "name": "Ouverture Van 't Kruijs"
+  },
+  "e3 e5 Qf3 d5 c4 Nf6 cxd5 Nxd5 Bc4 Be6 e4 Nb4": {
+    "eco": "A00",
+    "name": "Ouverture Van 't Kruijs"
+  },
+  "e3 e5 Qh5 Nc6 Bc4 d5 Bb3 Nf6 Qg5 h6 Qh4 Be7": {
+    "eco": "A00",
+    "name": "Ouverture Van 't Kruijs"
+  },
+  "e3 e5 c3 d5 Qa4 Bd7 Qb3 Bc6 Nf3 Bd6 d4 Nd7": {
+    "eco": "A00",
+    "name": "Ouverture Van 't Kruijs"
+  },
+  "e3 e5 d4 d6 d5 Nf6 e4 c6 dxc6 Nxc6 f4 Nxe4": {
+    "eco": "A00",
+    "name": "Ouverture Van 't Kruijs"
+  },
+  "e3 e5 d4 exd4 Qxd4 Nc6 Qe4 Be7 Bc4 Nf6 Qd3 O-O": {
+    "eco": "A00",
+    "name": "Ouverture Van 't Kruijs"
+  },
+  "e3 e5 g3 d5 Bg2 Nf6 Ne2 c6 O-O Bd6 c3 O-O": {
+    "eco": "A00",
+    "name": "Ouverture Van 't Kruijs"
+  },
+  "e4 Nc6 Nc3 Nf6 Nf3 d6 d4 e5 dxe5 dxe5 Bd3 Bb4": {
+    "eco": "B00",
+    "name": "Défense Nimzowitsch"
+  },
+  "e4 Nc6 Nc3 d5 Nf3 dxe4 Nxe4 e5 Bc4 Bd6 c3 Nf6": {
+    "eco": "B00",
+    "name": "Défense Nimzowitsch"
+  },
+  "e4 Nc6 Nf3 Nf6 Nc3 e5 d3 Bc5 h3 O-O Be2 d6": {
+    "eco": "B00",
+    "name": "Défense Nimzowitsch"
+  },
+  "e4 Nc6 Nf3 e5 Bc4 Nf6 h3 Nxe4 d3 Nf6 Nc3 a6": {
+    "eco": "B00",
+    "name": "Défense Nimzowitsch"
+  },
+  "e4 Nc6 Nf3 e6 Bc4 d6 Nc3 Nf6 h3 d5 exd5 exd5": {
+    "eco": "B00",
+    "name": "Défense Nimzowitsch"
+  },
+  "e4 Nc6 d3 d5 Nf3 Nf6 e5 Nd7 d4 f6 e6 Nb6": {
+    "eco": "B00",
+    "name": "Défense Nimzowitsch"
+  },
+  "e4 Nf6": {
+    "eco": "B02–B05",
+    "name": "Défense Alekhine"
+  },
+  "e4 Nf6 Nc3 d5 Bd3 e5 exd5 c6 dxc6 Nxc6 Nf3": {
+    "eco": "B02–B05",
+    "name": "Défense Alekhine"
+  },
+  "e4 Nf6 Nc3 e5 Nf3 Bc5 Nxe5 d5 d3 dxe4 dxe4 Bb4": {
+    "eco": "B02–B05",
+    "name": "Défense Alekhine"
+  },
+  "e4 Nf6 Nc3 e5 h3 Nc6 d3 d5 Nf3 d4 Nb5 Bd7": {
+    "eco": "B02–B05",
+    "name": "Défense Alekhine"
+  },
+  "e4 Nf6 d3 d5 exd5 Nxd5 Nf3 Bg4 Be2 c6 O-O h5": {
+    "eco": "B02–B05",
+    "name": "Défense Alekhine"
+  },
+  "e4 Nf6 d3 e5 Nf3 Bc5 Nxe5 O-O h3 d6 Nf3 d5": {
+    "eco": "B02–B05",
+    "name": "Défense Alekhine"
+  },
+  "e4 Nf6 f3 Nc6 Bc4": {
+    "eco": "B02–B05",
+    "name": "Défense Alekhine"
+  },
+  "e4 a5 d4 Ra6 Nf3 Re6 Bd3 d5 Nc3 dxe4 Nxe4 Qd5": {
+    "eco": "B00",
+    "name": "Corn Stalk Defense"
+  },
+  "e4 b5 d4 Nc6 Nf3 Nh6 h3 b4 c3 g5 Bd2 a5": {
+    "eco": "B00",
+    "name": "Défense Polonaise"
+  },
+  "e4 b6": {
+    "eco": "B00",
+    "name": "Défense Owen"
+  },
+  "e4 b6 Nf3 Bb7 Nc3 g6 Bc4 Bg7 Ng5 f6 Nf7 Nh6": {
+    "eco": "B00",
+    "name": "Défense Owen"
+  },
+  "e4 b6 Nf3 Bb7 d4 e6 Bd3 h5 O-O h4 h3 g5": {
+    "eco": "B00",
+    "name": "Défense Owen"
+  },
+  "e4 b6 d4 Bb7 Nc3 g6 f3 Bg7 Nge2 e6 e5 c6": {
+    "eco": "B00",
+    "name": "Défense Owen"
+  },
+  "e4 c5 Nc3": {
+    "eco": "B23–B25",
+    "name": "Sicilienne Fermée"
+  },
+  "e4 c5 Nf3 Nc6 Bb5": {
+    "eco": "B30–B31",
+    "name": "Sicilienne Rossolimo"
+  },
+  "e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5": {
+    "eco": "B33",
+    "name": "Sicilienne Svechnikov"
+  },
+  "e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6": {
+    "eco": "B34–B39",
+    "name": "Sicilienne Dragon accélérée"
+  },
+  "e4 c5 Nf3 d6 Bb5+": {
+    "eco": "B52–B53",
+    "name": "Sicilienne Moscou"
+  },
+  "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nc6": {
+    "eco": "B57–B69",
+    "name": "Sicilienne Classique"
+  },
+  "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6": {
+    "eco": "B90–B99",
+    "name": "Sicilienne Najdorf"
+  },
+  "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6": {
+    "eco": "B70–B79",
+    "name": "Sicilienne Dragon"
+  },
+  "e4 c5 Nf3 d6 d4 cxd4 Nxd4 e6": {
+    "eco": "B80–B89",
+    "name": "Sicilienne Scheveningue"
+  },
+  "e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6": {
+    "eco": "B46–B49",
+    "name": "Sicilienne Taïmanov"
+  },
+  "e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6": {
+    "eco": "B43–B44",
+    "name": "Sicilienne Kan"
+  },
+  "e4 c5 c3": {
+    "eco": "B22",
+    "name": "Sicilienne Alapine"
+  },
+  "e4 c5 d4 cxd4 c3": {
+    "eco": "B21",
+    "name": "Gambit Smith–Morra"
+  },
+  "e4 c5 f4": {
+    "eco": "B21",
+    "name": "Sicilienne Grand Prix"
+  },
+  "e4 c6 d4 d5 Nc3 Nf6": {
+    "eco": "B10–B11",
+    "name": "Caro–Kann Deux Cavaliers"
+  },
+  "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5": {
+    "eco": "B18",
+    "name": "Caro–Kann Classique"
+  },
+  "e4 c6 d4 d5 e5": {
+    "eco": "B12",
+    "name": "Caro–Kann Avance"
+  },
+  "e4 c6 d4 d5 exd5 cxd5": {
+    "eco": "B13",
+    "name": "Caro–Kann Échange"
+  },
+  "e4 c6 d4 d5 exd5 cxd5 c4": {
+    "eco": "B13",
+    "name": "Caro–Kann Panov–Botvinnik"
+  },
+  "e4 d5": {
+    "eco": "B01",
+    "name": "Scandinave"
+  },
+  "e4 d5 exd5 Qxd5 Nc3 Qa5 d4": {
+    "eco": "B01",
+    "name": "Scandinave (Var. principale)"
+  },
+  "e4 d6 Nf3 Nf6 Nc3 g6 Bc4 Bg7 Ng5 O-O O-O Nbd7": {
+    "eco": "(custom)",
+    "name": "Ouverture non classée"
+  },
+  "e4 d6 Nf3 Nf6 Nc3 g6 Bc4 Bg7 d3 O-O O-O Nbd7": {
+    "eco": "(custom)",
+    "name": "Ouverture non classée"
+  },
+  "e4 d6 Nf3 Nf6 Nc3 g6 d3 Bg7 Be2 Bg4 O-O Bxf3": {
+    "eco": "(custom)",
+    "name": "Ouverture non classée"
+  },
+  "e4 d6 d4 Nf6 Nc3 g6": {
+    "eco": "B07–B09",
+    "name": "Pirc"
+  },
+  "e4 d6 d4 Nf6 e5 dxe5 Be3 g6 c3 Bg7 h3 O-O": {
+    "eco": "(custom)",
+    "name": "Ouverture non classée"
+  },
+  "e4 e5 Bc4": {
+    "eco": "C23–C24",
+    "name": "Ouverture du Fou"
+  },
+  "e4 e5 Bc4 Nf6 Nc3 Bb4 Nf3 Bxc3 bxc3 Nxe4 O-O Qe7": {
+    "eco": "C23–C24",
+    "name": "Ouverture du Fou"
+  },
+  "e4 e5 Bc4 Nf6 d3 Nc6 f4 exf4 Bxf4 g6 Nf3 Bg7": {
+    "eco": "C23–C24",
+    "name": "Ouverture du Fou"
+  },
+  "e4 e5 Nc3": {
+    "eco": "C25–C29",
+    "name": "Partie Viennoise"
+  },
+  "e4 e5 Nc3 Nf6 Nf3 Bd6 d3 h6 Nd5 Nc6 Nxf6 Qxf6": {
+    "eco": "C25–C29",
+    "name": "Partie Viennoise"
+  },
+  "e4 e5 Nc3 Nf6 Nf3 Nc6 d4 d6 d5 Ne7 Qd3 g6": {
+    "eco": "C25–C29",
+    "name": "Partie Viennoise"
+  },
+  "e4 e5 Nc3 Nf6 Qf3 Bc5 Bc4 Nc6 Nd5 Nxd5 exd5 Ne7": {
+    "eco": "C25–C29",
+    "name": "Partie Viennoise"
+  },
+  "e4 e5 Nc3 Nf6 d3 Bc5 Nf3 Ng4 d4 Bb6 Nd5 exd4": {
+    "eco": "C25–C29",
+    "name": "Partie Viennoise"
+  },
+  "e4 e5 Nf3": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Bc5 Bc4 Nf6 h3 Nxe4 O-O Nxf2 Qe2 Qf6": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Bc5 Bc4 Nf6 h3 O-O O-O c6 Nc3 d5": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Bc5 Bc4 Nh6 h3 d6 O-O Rg8 d3 Nc6": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Bc5 Bc4 d6 h3 Nf6 d3 O-O O-O Be6": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Bc5 d3 Nc6 h3 Nf6 Be2 O-O O-O Qe7": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Bc5 d3 Nf6 Nxe5 O-O Nc3 h5 Be2 d6": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Bc5 d3 Qf6 Be2 g5 Bxg5 Qg6 Nc3 h6": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Bc5 d4 exd4 Nxd4 Qf6 c3 Bb6 Nd2 c5": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Bd6 Nc3 Nf6 Nd5 h6 d4 Nc6 dxe5 Nxe5": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Be7 Bc4 Nf6 d3 O-O Nc3 c6 O-O b5": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 Nc6 Bb5": {
+    "eco": "C60–C99",
+    "name": "Espagnole (Ruy Lopez)"
+  },
+  "e4 e5 Nf3 Nc6 Bc4 Bc5": {
+    "eco": "C50–C54",
+    "name": "Italienne (Giuoco Piano)"
+  },
+  "e4 e5 Nf3 Nc6 Bc4 Nf6": {
+    "eco": "C55–C59",
+    "name": "Deux Cavaliers"
+  },
+  "e4 e5 Nf3 Nc6 Nc3 Nf6": {
+    "eco": "C47–C49",
+    "name": "Quatre Cavaliers"
+  },
+  "e4 e5 Nf3 Nc6 c3": {
+    "eco": "C44",
+    "name": "Ponziani"
+  },
+  "e4 e5 Nf3 Nc6 d4": {
+    "eco": "C45",
+    "name": "Écossaise (Scotch)"
+  },
+  "e4 e5 Nf3 Nf6": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bc4 Bc5 Ng5 O-O O-O h6 Nf3 Nc6": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bc4 Bc5 O-O O-O d3 d5 exd5 c6": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bc4 Nxe4 d3 Nc5 Nxe5 Qe7 d4 d6": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bc4 d6 h3 Nc6 d3 a6 Ng5 Be6": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bc4 h6 Nxe5 Bd6 Nxf7": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bd3 Bc5 Nc3 Ng4 O-O f5 Nxe5 Nxe5": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bd3 Bc5 h3 O-O Nxe5 Nc6 Nf3 Nh5": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bd3 Nc6 Nc3 a6 a3 b5 O-O h6": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bd3 Nc6 Nc3 a6 h3 d5 exd5 e4": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Bd3 Nc6 O-O Qe7 h3 Qc5 Qe2 Nb4": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Nc3 Bc5 h3 d6 Bc4 Qe7 O-O O-O": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Nc3 Nc6 Bc4 Bc5 d3 Ng4 Be3 Bxe3": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Nc3 Nc6 Bc4 Bc5 h3 Nd4 d3 h6": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Nc3 d5 Bd3 c6 O-O Bg4 h3 Bh5": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Nc3 d6 Bc4 Be6 Bxe6 fxe6 d3 d5": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 Nxe5 Nxe4 d3 Nf6 Bf4 Bd6 Be2 Bxe5": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 d3 Bc5 Nc3 d6 Be2 O-O O-O Ng4": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 d3 Nc6 Nc3 Bb4 Bd2 O-O Be2 d6": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 d3 Nc6 Nc3 d6 Be2 Bg4 O-O Be7": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 d3 d6 Be3 Nc6 Be2 Be6 Nc3 Be7": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 d3 d6 Bg5 h6 Bxf6 Qxf6 Be2 Nc6": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 d4 exd4 Nxd4 Nxe4 Bd3 d5 Bxe4 dxe4": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 d4 exd4 Nxd4 Qe7 f3 c6 Bd3 Qb4": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Nf6 d4 exd4 Qxd4 Nc6 Qd1 d5 e5 Ne4": {
+    "eco": "C42–C43",
+    "name": "Défense Petrov"
+  },
+  "e4 e5 Nf3 Qe7 Bc4 c6 d3 d5 exd5 e4 Nfd2 exd3": {
+    "eco": "C40",
+    "name": "Défense Gunderam"
+  },
+  "e4 e5 Nf3 Qe7 d4 d6 dxe5 dxe5 Bd3 Nc6 Be3 Bd7": {
+    "eco": "C40",
+    "name": "Défense Gunderam"
+  },
+  "e4 e5 Nf3 Qf6 Bc4": {
+    "eco": "C40",
+    "name": "Défense Greco"
+  },
+  "e4 e5 Nf3 Qf6 Bd3 Bc5 Nc3 h5 b3 Nh6 Bb2 Ng4": {
+    "eco": "C40",
+    "name": "Défense Greco"
+  },
+  "e4 e5 Nf3 Qf6 Bd3 Bc5 O-O Qg6 Nc3 d6 a3 Bh3": {
+    "eco": "C40",
+    "name": "Défense Greco"
+  },
+  "e4 e5 Nf3 Qf6 Bd3 Nc6 Nc3 Nd4 b3 Nxf3 Qxf3 Qxf3": {
+    "eco": "C40",
+    "name": "Défense Greco"
+  },
+  "e4 e5 Nf3 Qf6 Bd3 h6 Nc3 g5 h3 d6 O-O g4": {
+    "eco": "C40",
+    "name": "Défense Greco"
+  },
+  "e4 e5 Nf3 Qf6 d3 Bc5 Qe2 Nc6 Be3 b6 g3 Nh6": {
+    "eco": "C40",
+    "name": "Défense Greco"
+  },
+  "e4 e5 Nf3 c5 Bc4 Qh4 d3 Qxe4 dxe4 f5 Nc3 b5": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 c6 Nxe5 d5 d3 d4 Nf3 c5 Nbd2 g6": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nf3 d5 Nxe5 Bd6 Ng4 dxe4 Bc4 Nf6 h3 Nc6": {
+    "eco": "C40",
+    "name": "Gambit de l'Éléphant"
+  },
+  "e4 e5 Nf3 d5 exd5 Qxd5 Nc3 Qc4 d3 Qc6 Nxe5 Qe6": {
+    "eco": "C40",
+    "name": "Gambit de l'Éléphant"
+  },
+  "e4 e5 Nf3 d5 exd5 Qxd5 Nc3 Qd8 Nxe5 Bd6 Nf3 Be6": {
+    "eco": "C40",
+    "name": "Gambit de l'Éléphant"
+  },
+  "e4 e5 Nf3 d5 exd5 Qxd5 Nc3 Qd8 Nxe5 f6 Nf3 c5": {
+    "eco": "C40",
+    "name": "Gambit de l'Éléphant"
+  },
+  "e4 e5 Nf3 d5 exd5 Qxd5 Nc3 Qe6 Bd3 Qg4 Nxe5 Qd4": {
+    "eco": "C40",
+    "name": "Gambit de l'Éléphant"
+  },
+  "e4 e5 Nf3 d5 exd5 Qxd5 Nc3 Qe6 b3 Bb4 Bc4 Qf5": {
+    "eco": "C40",
+    "name": "Gambit de l'Éléphant"
+  },
+  "e4 e5 Nf3 d5 exd5 f6 Bc4 Ne7 Nc3 c6 dxc6 Nexc6": {
+    "eco": "C40",
+    "name": "Gambit de l'Éléphant"
+  },
+  "e4 e5 Nf3 d6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Be6 Bxe6 f6 Bb3 Ne7 O-O Nbc6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Be7 O-O Nf6 Nc3 O-O d3 a5": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Bg4 O-O Nf6 d3 c6 h3 Be6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Bg4 h3 Bh5 O-O g6 Nc3 f5": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Nc6 d3 Nf6 Ng5 Be6 Bxe6 fxe6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Nf6 Nc3 Be6 Bxe6 fxe6 h3 Nc6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Nf6 Nc3 h6 O-O Be7 d4 O-O": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Nf6 O-O Nxe4 d3 Nf6 Nc3 Qd7": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Nf6 d3 h6 O-O Be7 d4 exd4": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Nh6 h3 f6 O-O Qe7 Nc3 c6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Qe7 d3 c6 O-O Be6 Bxe6 Qxe6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Qf6 O-O g5 d3 Nc6 Nc3 g4": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 Qf6 d3 h6 O-O Be7 Nc3 c6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 c5 Nc3 Be6 Bxe6 fxe6 O-O d5": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 h6 Nc3 Nf6 d4 exd4 Nxd4 Be7": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 h6 Nc3 Nf6 h3 Be7 O-O O-O": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 h6 O-O Bg4 h3 Bxf3 Qxf3 Nf6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 h6 O-O a6 Nc3 b5 Bd5 c6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Bc4 h6 d3 Nf6 O-O c6 Nc3 d5": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Nc3 Be6 d4 exd4 Nxd4 Be7 Nxe6 fxe6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Nc3 Nc6 Bc4 Nf6 d3 Bg4 O-O Nd4": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Nc3 c6 d3 Qf6 Bg5 Qg6 Be2 h6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 Nc3 g6 d3 Bg7 Bg5 Nf6 Nd5 Nbd7": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 d3 Nf6 Be3 Nc6 Nc3 Be7 Be2 O-O": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 d4 Nd7 d5 g6 Nc3 Bg7 Bb5 c6": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 d6 d4 exd4 Nxd4 Nf6 Bd3 Bg4 f3 Bd7": {
+    "eco": "C41",
+    "name": "Défense Philidor"
+  },
+  "e4 e5 Nf3 f5": {
+    "eco": "C40",
+    "name": "Gambit Letton (rare)"
+  },
+  "e4 e5 Nf3 f5 d3 fxe4 dxe4 Nf6 Nc3 Bb4 Bd3 O-O": {
+    "eco": "C40",
+    "name": "Gambit Letton"
+  },
+  "e4 e5 Nf3 f6 Bc4 Bc5 Bxg8 Rxg8 O-O d6 Nc3 f5": {
+    "eco": "C40",
+    "name": "Défense Damiano"
+  },
+  "e4 e5 Nf3 f6 Bc4 Bc5 d3 c6 Nh4 d5 Qh5 g6": {
+    "eco": "C40",
+    "name": "Défense Damiano"
+  },
+  "e4 e5 Nf3 f6 Bc4 Nh6 h3 d6 Nc3 Bd7 d3 Nc6": {
+    "eco": "C40",
+    "name": "Défense Damiano"
+  },
+  "e4 e5 Nf3 f6 d3 Qe7 Nc3 g5 d4 g4 Nh4 Nc6": {
+    "eco": "C40",
+    "name": "Défense Damiano"
+  },
+  "e4 e5 Nf3 f6 d3 d6 Be2 c5 O-O b6 Nc3 g5": {
+    "eco": "C40",
+    "name": "Défense Damiano"
+  },
+  "e4 e5 Nf3 h6 d3 f6 Be2 g5 Nc3 g4 Nh4 h5": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Nh3 Nf6 Qf3 h6 d3 Bd6 Nc3 O-O Nd5 Nxd5": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 Qh5 Nc6 Bb5 Nf6 Qe2 Bd6 Bxc6 bxc6 d3 O-O": {
+    "eco": "C20",
+    "name": "Wayward Queen (Parham)"
+  },
+  "e4 e5 Qh5 Nc6 Bb5 d6 Bxc6 bxc6 Nf3 Nf6 Qh3 Bxh3": {
+    "eco": "C20",
+    "name": "Wayward Queen (Parham)"
+  },
+  "e4 e5 Qh5 Nc6 Bc4 Nh6 d3 Bd6 Bxh6 gxh6 Qxf7": {
+    "eco": "C20",
+    "name": "Wayward Queen (Parham)"
+  },
+  "e4 e5 Qh5 Nf6 Qxe5 Be7 Nf3 Nc6 Qc3 Nxe4 Qb3 O-O": {
+    "eco": "C20",
+    "name": "Wayward Queen (Parham)"
+  },
+  "e4 e5 Qh5 d6 Bc4 g6 Qf3 Ne7 Qxf7 Kd7 Qe6 Ke8": {
+    "eco": "C20",
+    "name": "Wayward Queen (Parham)"
+  },
+  "e4 e5 Qh5 d6 Bc4 g6 Qf3 Nf6 d3 Bg7 Bg5 Nbd7": {
+    "eco": "C20",
+    "name": "Wayward Queen (Parham)"
+  },
+  "e4 e5 c3 Nf6 b3 Nxe4 Qc2 Nf6 Bb2 Bd6 Na3 O-O": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 c3 Nf6 d3 g6 Bg5 Bg7 Nd2 O-O Ngf3 d6": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 c4 Nc6 Nc3 Nf6 Nf3 d6 Bd3 Nd4 O-O Nxf3": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 d3": {
+    "eco": "C20",
+    "name": "KIA structure (calme)"
+  },
+  "e4 e5 d3 Nf6 f4 d6 Nc3 g6 Nf3 Nc6 Nd5 Bg7": {
+    "eco": "(custom)",
+    "name": "Partie ouverte (non classée)"
+  },
+  "e4 e5 d4 exd4 Qxd4 Nc6 Qd1 d6 Nc3 Nf6 Nf3 g6": {
+    "eco": "C21",
+    "name": "Partie du Centre"
+  },
+  "e4 e5 d4 exd4 Qxd4 Nc6 Qd1 d6 Nc3 Nf6 e5 dxe5": {
+    "eco": "C21",
+    "name": "Partie du Centre"
+  },
+  "e4 e5 d4 exd4 Qxd4 Nc6 Qd5 f6 Bc4 Nge7 Qf7": {
+    "eco": "C21",
+    "name": "Partie du Centre"
+  },
+  "e4 e5 d4 f6 d5 d6 f3 c6 Nc3 cxd5 Nxd5 Nc6": {
+    "eco": "C21",
+    "name": "Partie du Centre"
+  },
+  "e4 e5 f3 Bc5 Nc3 d6 Bc4 Bxg1 Rxg1 Qh4 Ke2 Qxh2": {
+    "eco": "C20",
+    "name": "Ouverture Barnes"
+  },
+  "e4 e5 f3 Nc6 Nc3 Nf6 Bc4 d6 d3 a6 h3 b5": {
+    "eco": "C20",
+    "name": "Ouverture Barnes"
+  },
+  "e4 e5 f4": {
+    "eco": "C30–C39",
+    "name": "Gambit du Roi"
+  },
+  "e4 e5 f4 d6 Nf3 f6 d3 Nc6 Nc3 f5 Be3 Nf6": {
+    "eco": "C30–C39",
+    "name": "Gambit du Roi"
+  },
+  "e4 e5 f4 exf4 Nf3 Bc5 d4 Bb6 Bxf4 Ne7 Bc4 h6": {
+    "eco": "C30–C39",
+    "name": "Gambit du Roi"
+  },
+  "e4 e5 f4 exf4 Nf3 Nc6 d4 d6 Bxf4 g6 Bb5 Bd7": {
+    "eco": "C30–C39",
+    "name": "Gambit du Roi"
+  },
+  "e4 e6 d4 d5 Nc3 Bb4": {
+    "eco": "C15–C19",
+    "name": "Française Winawer"
+  },
+  "e4 e6 d4 d5 Nc3 Nf6": {
+    "eco": "C11–C14",
+    "name": "Française Classique"
+  },
+  "e4 e6 d4 d5 Nc3 dxe4": {
+    "eco": "C10",
+    "name": "Française Rubinstein"
+  },
+  "e4 e6 d4 d5 Nd2": {
+    "eco": "C03–C06",
+    "name": "Française Tarrasch"
+  },
+  "e4 e6 d4 d5 e5": {
+    "eco": "C02",
+    "name": "Française Variante d'avance"
+  },
+  "e4 e6 d4 d5 exd5 exd5": {
+    "eco": "C01",
+    "name": "Française Échange"
+  },
+  "e4 g5 d4 d5 Nc3 g4 Bd3 dxe4 Bxe4 e6 Nge2 f5": {
+    "eco": "B00",
+    "name": "Défense Borg"
+  },
+  "e4 g6 d4 Bg7": {
+    "eco": "B06",
+    "name": "Moderne"
+  },
+  "e4 g6 d4 Bg7 Nc3 c5 dxc5 Nc6 Bd2 d6 cxd6 Qxd6": {
+    "eco": "B06",
+    "name": "Défense Moderne"
+  },
+  "g3 d5 b3 c5 Bg2 e6 Bb2 Nc6 e3 Bd6 d3 Nf6": {
+    "eco": "A00",
+    "name": "Système Barcza"
+  },
+  "g3 e5 Bg2 Nc6 e4 Nf6 Nc3 Bc5 h4 O-O d3 d6": {
+    "eco": "A00",
+    "name": "Système Barcza"
+  },
+  "g3 e5 Bg2 d6 e4 Nf6 Nc3 g6 d3 Bg7 Be3 O-O": {
+    "eco": "A00",
+    "name": "Système Barcza"
+  },
+  "g3 e5 e4 Nf6 d3 Bd6 c3 Nc6 Bg5 O-O Be3 b6": {
+    "eco": "A00",
+    "name": "Système Barcza"
+  },
+  "h4 e5 e4 Nf6 b3 Nxe4 Bb2 Nc6 Bc4 Nd6 Bd5 Be7": {
+    "eco": "A00",
+    "name": "Ouverture Kadas"
+  }
+}

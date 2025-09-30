@@ -32,6 +32,15 @@ python -m cwa.cli analyze --user sample --pgn-file tests/data/sample_small.pgn -
 streamlit run src/cwa/app_streamlit.py
 ```
 
+## Comprendre les métriques cp / Δcp / ACPL
+- **cp (centipawns)** : 100 cp équivaut à un pion d'avantage ou de désavantage.
+- **Δcp** : perte (ou gain) liée à un coup précis ; un Δcp de −300 cp signifie ~3 pions perdus sur le coup.
+- **ACPL** : moyenne des |Δcp| sur vos coups, indicateur global de précision (plus c'est bas, mieux c'est).
+
+Le tableau de bord Streamlit affiche un popover rappelant ces notions, des badges « OK / À travailler » pour les KPI, et un nouvel onglet **Coups typiques** qui liste les gaffes les plus fréquentes avec visualisation du plateau (coup joué en rouge, recommandation Stockfish en vert).
+
+![Aperçu Onglet Coups Typiques](docs/img/coups_typiques_tab.png)
+
 ## Configuration
 Environment variables are managed via Pydantic settings (`src/cwa/config.py`). Key variables:
 - `CHESSCOM_USERNAME`: default username for CLI/dashboards.

@@ -155,7 +155,7 @@ def prepare_blunders_table(
     """Enhance blunders with game URLs and SAN context."""
     games_meta = games_df[["game_id", "url", "utc_date", "time_class", "opening"]]
     enriched = blunders_df.merge(games_meta, on="game_id", how="left")
-    moves_context = moves_df[["game_id", "ply", "uci", "comment"]]
+    moves_context = moves_df[["game_id", "ply", "comment"]].copy()
     enriched = enriched.merge(moves_context, on=["game_id", "ply"], how="left")
     return enriched
 

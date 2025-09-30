@@ -56,6 +56,7 @@ def annotate_engine_evaluations(
     ] = np.nan
     moves_df["is_blunder"] = False
     moves_df["low_impact"] = False
+    moves_df["best_uci"] = None
 
     for idx, row in moves_df[moves_df["player_move"]].iterrows():
         fen_before = row["fen_before"]
@@ -63,7 +64,7 @@ def annotate_engine_evaluations(
         if not fen_before or not fen_after:
             continue
 
-        eval_before_white = engine.evaluate_fen(fen_before)
+        eval_before_white, best_uci = engine.analyse_fen(fen_before)
         eval_after_white = engine.evaluate_fen(fen_after)
 
         if row["side_to_move"] == "white":
@@ -84,6 +85,7 @@ def annotate_engine_evaluations(
         moves_df.at[idx, "abs_delta_cp"] = abs(delta)
         moves_df.at[idx, "is_blunder"] = bool(delta <= blunder_threshold)
         moves_df.at[idx, "low_impact"] = low_impact
+        moves_df.at[idx, "best_uci"] = best_uci
 
     return moves_df
 
@@ -108,15 +110,20 @@ def player_move_summary(moves_df: pd.DataFrame) -> pd.DataFrame:
         "san",
         "uci",
         "phase",
+        "fen_before",
         "eval_before_cp",
         "eval_after_cp",
         "delta_cp",
         "abs_delta_cp",
         "is_blunder",
         "low_impact",
+        "best_uci",
     ]
     available = [c for c in columns if c in moves_df.columns]
-    return moves_df[moves_df["player_move"]][available].copy()
+    result = moves_df[moves_df["player_move"]][available].copy()
+    if "uci" in result.columns and "played_uci" not in result.columns:
+        result = result.rename(columns={"uci": "played_uci"})
+    return result
 
 
 def detect_non_conversion(
@@ -161,10 +168,16 @@ def blunder_events(moves_df: pd.DataFrame) -> pd.DataFrame:
         "eval_before_cp",
         "eval_after_cp",
         "delta_cp",
+        "uci",
+        "fen_before",
+        "best_uci",
     ]
     player_moves = moves_df[moves_df["player_move"] & moves_df["is_blunder"]]
     available = [c for c in columns if c in player_moves.columns]
-    return player_moves[available].copy()
+    blunders = player_moves[available].copy()
+    if "uci" in blunders.columns and "played_uci" not in blunders.columns:
+        blunders = blunders.rename(columns={"uci": "played_uci"})
+    return blunders
 
 
 __all__ = [

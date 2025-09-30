@@ -7,6 +7,9 @@ class DummyEngine:
     def __init__(self, mapping: dict[str, int]):
         self.mapping = mapping
 
+    def analyse_fen(self, fen: str):
+        return self.mapping[fen], None
+
     def evaluate_fen(self, fen: str) -> int:
         return self.mapping[fen]
 

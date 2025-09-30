@@ -6,7 +6,7 @@ import platform
 import shutil
 import tempfile
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Dict, Optional, Tuple
 
 import requests
 import chess
@@ -147,7 +147,7 @@ class StockfishEngine:
         self.depth = depth
         self.nodes = nodes
         self._engine: Optional[chess.engine.SimpleEngine] = None
-        self._cache: Dict[str, int] = {}
+        self._cache: Dict[str, Tuple[int, Optional[str]]] = {}
 
     def __enter__(self) -> "StockfishEngine":
         self._engine = chess.engine.SimpleEngine.popen_uci(str(self.engine_path))
@@ -158,8 +158,8 @@ class StockfishEngine:
             self._engine.quit()
             self._engine = None
 
-    def evaluate_fen(self, fen: str) -> int:
-        """Evaluate a position and return a centipawn score from White's perspective."""
+    def analyse_fen(self, fen: str) -> Tuple[int, Optional[str]]:
+        """Return engine evaluation and best move for the given FEN."""
         if fen in self._cache:
             return self._cache[fen]
         if self._engine is None:
@@ -174,8 +174,17 @@ class StockfishEngine:
         score = info["score"].white().score(mate_score=10000)
         if score is None:
             score = 0
-        self._cache[fen] = int(score)
-        return self._cache[fen]
+        best: Optional[str] = None
+        pv = info.get("pv")
+        if pv:
+            best = pv[0].uci()
+        result = (int(score), best)
+        self._cache[fen] = result
+        return result
+
+    def evaluate_fen(self, fen: str) -> int:
+        """Compatibility helper returning only the evaluation component."""
+        return self.analyse_fen(fen)[0]
 
 
 __all__ = ["StockfishEngine", "resolve_engine_path", "StockfishUnavailableError"]

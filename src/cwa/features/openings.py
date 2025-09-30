@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
-from collections import defaultdict
+import json
+from functools import lru_cache
+from pathlib import Path
 from typing import Dict, Iterable, List, Sequence, Tuple
 
 import pandas as pd
@@ -22,6 +24,25 @@ ECO_FALLBACKS: Dict[Tuple[str, ...], Tuple[str, str]] = {
     ("d4", "d5", "Nf3", "Nf6", "c4"): ("D30", "Queen's Gambit Declined"),
     ("e4", "d5"): ("B01", "Scandinavian Defence"),
 }
+
+ECO_MAP_PATH = Path(__file__).with_name("eco_map.json")
+
+
+def _normalize_san(move: str) -> str:
+    return move.replace("+", "").replace("#", "").replace("!", "").replace("?", "").strip()
+
+
+@lru_cache(maxsize=1)
+def load_opening_prefixes() -> Dict[Tuple[str, ...], Dict[str, str]]:
+    if not ECO_MAP_PATH.exists():
+        return {}
+    with ECO_MAP_PATH.open("r", encoding="utf-8") as fh:
+        raw = json.load(fh)
+    mapping: Dict[Tuple[str, ...], Dict[str, str]] = {}
+    for key, value in raw.items():
+        prefix = tuple(_normalize_san(token) for token in key.strip().split())
+        mapping[prefix] = value
+    return mapping
 
 
 def fill_missing_openings(games_df: pd.DataFrame, moves_df: pd.DataFrame) -> pd.DataFrame:
@@ -49,10 +70,20 @@ def infer_opening(moves: Sequence[str]) -> Tuple[str, str] | None:
     """Infer ECO/opening from the initial move sequence."""
     if not moves:
         return None
+    normalized = [_normalize_san(move) for move in moves]
+
+    prefixes = load_opening_prefixes()
+    max_len = min(len(normalized), 12)
+    for length in range(max_len, 1, -1):
+        key = tuple(normalized[:length])
+        if key in prefixes:
+            info = prefixes[key]
+            return info.get("eco", "UNK"), info.get("name", "Unknown")
+
     for pattern, result in ECO_FALLBACKS.items():
-        if len(moves) < len(pattern):
+        if len(normalized) < len(pattern):
             continue
-        if tuple(moves[: len(pattern)]) == pattern:
+        if tuple(normalized[: len(pattern)]) == pattern:
             return result
     return None
 
@@ -81,14 +112,15 @@ def aggregate_opening_performance(
     aggregated = (
         enriched.groupby(group_cols)
         .agg(
-            games=("game_id", "count"),
+            games=("game_id", pd.Series.nunique),
             score_pct=("score", lambda s: 100 * s.mean() if len(s) else 0),
             avg_acpl=("acpl", "mean"),
             blunders_per_game=("blunders", lambda s: s.sum() / len(s) if len(s) else 0),
         )
         .reset_index()
     )
-    return aggregated
+    aggregated["games"] = aggregated["games"].astype(int)
+    return aggregated.sort_values("avg_acpl", ascending=False)
 
 
-__all__ = ["fill_missing_openings", "aggregate_opening_performance", "infer_opening"]
+__all__ = ["fill_missing_openings", "aggregate_opening_performance", "infer_opening", "load_opening_prefixes"]
