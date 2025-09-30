@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+*.egg
+.build/
+
+# Environments
+.venv/
+.env
+.env.local
+
+# Data & outputs
+data/raw/
+!data/raw/.gitkeep
+data/processed/
+!data/processed/.gitkeep
+reports/
+*.parquet
+
+# Streamlit
+.streamlit/
+
+# Misc
+.DS_Store
+.idea/
+.vscode/
+
