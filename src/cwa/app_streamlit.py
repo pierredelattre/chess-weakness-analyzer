@@ -12,7 +12,7 @@ import chess
 import pandas as pd
 import streamlit as st
 
-from cwa.analyzer import run_analyze
+from cwa.analyzer import run_analyze, run_fetch
 from cwa.config import get_settings
 from cwa.data.storage import processed_path, read_parquet
 from cwa.engine.stockfish import StockfishEngine, resolve_engine_path
@@ -562,9 +562,21 @@ def main() -> None:
 
     data = load_processed(username)
 
+    period_label = st.sidebar.selectbox(
+        "Période à analyser",
+        options=["1 mois", "3 mois", "6 mois"],
+        index=1,
+        help="Limite le download et l'analyse aux derniers mois disponibles.",
+    )
+    months_map = {"1 mois": 1, "3 mois": 3, "6 mois": 6}
+    selected_months = months_map[period_label]
+
     if st.sidebar.button("(Re)Analyser"):
         try:
-            run_analyze(username=username, settings=settings)
+            with st.spinner("Téléchargement des archives Chess.com..."):
+                run_fetch(username=username, settings=settings, max_months=selected_months)
+            with st.spinner("Analyse des parties en cours..."):
+                run_analyze(username=username, settings=settings, max_months=selected_months)
             data = load_processed(username)
             st.sidebar.success("Analyse mise à jour.")
         except Exception as exc:  # pragma: no cover

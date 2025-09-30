@@ -94,6 +94,7 @@ def analyze(
         settings=settings,
         engine_depth=engine_depth,
         engine_nodes=engine_nodes,
+        max_months=max_months,
         pgn_files=[pgn_file] if pgn_file else None,
     )
     render_analysis_summary(artifacts)
