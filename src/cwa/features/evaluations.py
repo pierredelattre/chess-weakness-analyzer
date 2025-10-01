@@ -58,7 +58,20 @@ def annotate_engine_evaluations(
     moves_df["low_impact"] = False
     moves_df["best_uci"] = None
 
-    for idx, row in moves_df[moves_df["player_move"]].iterrows():
+    player_moves = moves_df[moves_df["player_move"]]
+    total_games = int(player_moves["game_id"].nunique())
+    total_moves = len(player_moves)
+    if total_games:
+        LOGGER.info(
+            "Stockfish evaluation starting for %s games (%s player moves)",
+            total_games,
+            total_moves,
+        )
+
+    processed_games = set()
+    games_done = 0
+
+    for idx, row in player_moves.iterrows():
         fen_before = row["fen_before"]
         fen_after = row["fen_after"]
         if not fen_before or not fen_after:
@@ -86,6 +99,24 @@ def annotate_engine_evaluations(
         moves_df.at[idx, "is_blunder"] = bool(delta <= blunder_threshold)
         moves_df.at[idx, "low_impact"] = low_impact
         moves_df.at[idx, "best_uci"] = best_uci
+
+        game_id = row.get("game_id")
+        if game_id not in processed_games:
+            processed_games.add(game_id)
+            games_done += 1
+            LOGGER.info(
+                "Stockfish evaluation progress: game %s/%s (%s)",
+                games_done,
+                total_games,
+                game_id,
+            )
+
+    if total_games:
+        LOGGER.info(
+            "Stockfish evaluation complete: %s games processed (%s player moves)",
+            games_done,
+            total_moves,
+        )
 
     return moves_df
 

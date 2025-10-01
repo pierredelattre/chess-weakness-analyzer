@@ -564,14 +564,20 @@ def main() -> None:
 
     period_label = st.sidebar.selectbox(
         "Période à analyser",
-        options=["1 mois", "3 mois", "6 mois"],
+        options=["1 mois", "3 mois", "6 mois", "1 an", "Depuis le début"],
         index=1,
         help="Limite le download et l'analyse aux derniers mois disponibles.",
     )
-    months_map = {"1 mois": 1, "3 mois": 3, "6 mois": 6}
+    months_map = {
+        "1 mois": 1,
+        "3 mois": 3,
+        "6 mois": 6,
+        "1 an": 12,
+        "Depuis le début": None,
+    }
     selected_months = months_map[period_label]
 
-    if st.sidebar.button("(Re)Analyser"):
+    if st.sidebar.button("Analyser"):
         try:
             with st.spinner("Téléchargement des archives Chess.com..."):
                 run_fetch(username=username, settings=settings, max_months=selected_months)
